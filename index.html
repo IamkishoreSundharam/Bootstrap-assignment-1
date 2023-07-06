@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/180075e6a3.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- NAVBAR-HEADER-BEGINS -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark style-header sticky-top">
+
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">Logo</a>  <!-- logo for header-->
+
+          <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon "></span>    <!-- toggle-button -->
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end text-end" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#branches">BRANCHES</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#reviews">REVIEWS</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <!-- SECTION-1 -->
+      <section class=" sec-1  ">
+
+        <div class="container text-white ">
+
+         <div class="row"> <!--First-Row-->
+
+            <div class="col-xl-6 coloumn-1 mt-5"> <!--COLUMN-1-->
+                <p>LOREM IPSUM</p>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab cumque, perferendis aperiam eveniet quae sed omnis adipisci a expedita ut atque optio. Corporis aliquam laudantium quam in voluptas cum ut omnis nemo, amet iste labore cupiditate at quo tempora ipsa doloremque numquam consequatur dolores sint inventore ea aperiam. Quisquam, molestiae.</p>
+            </div>
+
+            <div class="col"></div> <!-- EMPTY-COLUMN-2-FOR SPACING -->
+
+            <div class="col-xl-5 coloumn-2 text-center mt-5">  <!-- COLUMN-3 -->
+                <img src="./image/toppng.com-user-experience-vector-1012x648.png" alt="">
+            </div>
+
+         </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION-2 -->
+      <section id="branches" class="sec-2 ">
+        <div class="container text-center mt-5">
+            <div class="dash rounded mx-auto"></div>
+            <h1>BRANCHES</h1>
+        </div>
+        
+        <!-- CAROUSEL -->
+        <div id="demo" class="cor-con container carousel slide mt-5 rounded" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active car-img">
+                <img  src="./image/new-york.jpg" alt="new-york" class="d-block w-100 rounded">
+                <div class="carousel-caption">
+                    <h3>New-york</h3>
+                    <p>We had such a great time in NEW-YORK!</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img  src="./image/London.jpg" alt="Chicago" class="d-block w-100 rounded">
+                <div class="carousel-caption">
+                    <h3>London</h3>
+                    <p>We had such a great time in LONDON!</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img  src="./image/dubai.jpg" alt="New York" class="d-block w-100 rounded">
+                <div class="carousel-caption">
+                    <h3>Dubai</h3>
+                    <p>We had such a great time in Dubai!</p>
+                  </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+      </section>
+
+      <!-- SECTION-3 -->
+      <section id="reviews" class="sec-3">
+
+        <div class="rev text-center mt-5">
+
+          <div class="dash rounded mx-auto"></div>
+          <h1 class="mt-2">
+            CLIENTS REVIEW
+          </h1>
+          </div>
+
+          <div class="container mt-5">
+          
+            <!--ROW-->
+          <div class="row">  
+          
+            <!--COLUMN-2--> 
+            <div class="sec-3-col col-lg  border-start border-5 border-info mb-2">  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis est libero doloremque velit in! Placeat fugiat ratione beatae maiores quisquam dolore sint laudantium eveniet consectetur.</p>
+            <i class="fa-solid fa-user-tie mt-2 mb-2"></i>
+            <p id="pos">CEO of Google</p>
+            </div>
+
+            <!--COLUMN-2-->
+            <div class="sec-3-col col-lg border-start border-5 border-info mb-2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis est libero doloremque velit in! Placeat fugiat ratione beatae maiores quisquam dolore sint laudantium eveniet consectetur.</p>
+            <i class="fa-solid fa-user-tie mt-2 mb-2"></i>
+            <p id="pos">CEO of Apple</p>
+            </div>
+          </div>
+          
+          <div class="text-center mt-5">
+            <button class="btn btn-lg btn-outline-primary rounded-pill">See more!</button>
+          </div>
+         
+        </div>
+      </section>
+
+      <!-- SECTION-4 -->
+      <section id="contact" class="sec-4 mt-5 ">
+
+        <div class="dash rounded mx-auto"></div>
+          <div class="con-text mx-auto">
+            <h1 class="mx-auto">CONTACT US</h1>
+          </div>
+          
+         <div class="contact-holder container row mx-auto ">
+
+          <div class="col-lg  contact-img ">
+            <div class="con-img-holder mx-auto">
+            <img src="./image/contact-img.svg" alt="image">
+            </div>
+          </div>
+
+          <div class="col-lg mt-4">
+            <form>
+               <!-- row-1 -->
+              <div class="row mb-3">  
+
+                <div class="col">
+                  <input type="text" class="form-control form-control-lg" placeholder="First Name" name="email">
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control form-control-lg" placeholder="Last Name" name="pswd">
+                </div>
+              </div>
+              
+              <!-- row2 -->
+              <div class="row mb-3">
+                <div class="col">
+                  <input type="text" class="form-control form-control-lg" placeholder="Enter email" name="email">
+                </div>
+              </div>  
+              
+              <!-- row-3 -->
+              <div class="row mb-3">
+                <div class="col">
+                  <textarea class="form-control form-control-lg" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                </div>
+              </div>
+
+              <!-- row-4 -->
+              <div class="row mb-3">
+               <button class="btn btn-lg  rounded-pill send-btn mx-auto">SEND</button>
+              </div>
+
+            </form>
+          </div>
+         </div>
+
+      </section>
+
+      <!-- FOOTER -->
+      <nav class="navbar navbar-expand-sm footer ">
+
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5 text-white" href="#">Logo</a>
+          <p class="navbar-text mx-auto my-auto text-white ">Copyrights 2023. All Rights Reserved</p>
+        </div>
+
+      </nav>
+</body>
+</html>
